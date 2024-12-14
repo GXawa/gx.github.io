@@ -1,0 +1,147 @@
+/*字体导入*/
+@import url('https://fonts.googleapis.com/css2?display=swap&family=Long+Cang&family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@200;500;700&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&family=Lobster&family=Ma+Shan+Zheng&family=ZCOOL+QingKe+HuangYou&family=Comfortaa&family=Silkscreen&family=Noto+Sans+SC&family=Oxygen+Mono&family=Overpass+Mono:wght@300');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|PT+Mono|Poppins:600,800|Share+Tech+Mono|Anonymous+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Graduate&family=Kelly+Slab&family=Kumar+One&family=Tulpen+One&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+/* 页眉 */
+.header {
+  background-color: rgba(204,204,204,0.5);
+  text-align: center;
+  padding: 20px;
+}
+/* 导航栏 */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(51,51,51,0.5);
+}
+
+/* 导航栏-链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: rgba(242,242,242,0.5);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* 链接 - 悬停改变颜色 */
+.topnav a:hover {
+  background-color: rgba(221,221,221,0.5);
+  color: black;
+}
+/* 左列 */
+.leftcolumn {
+  float: left;
+  background-color:rgba(245,245,245,0.4);
+  width:75%;
+}
+
+/* 右列 */
+.rightcolumn{
+  float:right;
+  width: 25%;
+  background-color:rgba(220,220,220,0.6);
+  padding-lift:20px;
+}
+/* 响应式布局 - 使两列堆叠，而不是并排 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding:0;
+  }
+}
+/* 在列后清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* 页脚 */
+.footer {
+  background-color: rgba(241,241,241,0.5);
+  text-align: center;
+  padding: 10px;
+}
+
+html {
+ height: 100%;
+}
+ 
+body {
+ margin: 0;
+ padding: 0;
+ background-image: url('横.png'); /* 替换为你的图片路径 */
+ background-position: center; /* 图片居中 */
+ background-size: cover; /* 图片覆盖整个元素 */
+ background-repeat: no-repeat; /* 不重复图片 */
+ height: 100%; /* 高度设置为100% */
+/*首页*/
+.mainpage-banner,
+.mainpage-block {
+	background-color: rgba(204,204,204,0.5);
+	border-color:  rgba(220,220,220,0.5);
+	border-style: solid;
+	border-width: 0.6px;
+	box-shadow: 0 0 5px 0.5px grey;
+	margin: 10px 5px;
+	padding: 15px 0;
+}
+.mainpage-banner {
+	border-radius: 30px 0;
+	text-align: center;
+}
+.mainpage-banner-content {
+	margin: 0 2.5%;
+}
+.mainpage-banner-header {
+	background-color: rgba(220,220,220,0.5);
+	font-size: 175%;
+	font-weight: bold;
+	margin: 12px;
+}
+.mainpage-block {
+	border-radius: 9px;
+}
+.mainpage-block-content {
+	margin: 0 10px;
+}
+.mainpage-block-header {
+	background-color: rgba(220,220,220,0.5);
+	font-size: 150%;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding: 0 30px;
+}
+.mainpage-contact img{
+	filter: sepia(0.5) invert(0.9);
+}
+.theme-fandomdesktop-dark .mainpage-contact img{
+	filter: none;
+}
+body {
+  font-family: 'Noto Serif SC', sans-serif;
+}
+/*图片模糊化处理*/
+.img-box{
+   width:404px;
+height:335px;
+position:relative;
+}
+.img-box img{
+-webkit-filter: blur(3px);
+-moz-filter: blur(3px);
+-o-filter: blur(3px);
+filter: blur(3px);
+}
+/*渐变*/
+.gradient-text-rb {
+  /* 创建一个线性渐变，从红色到蓝色 */
+  background: linear-gradient(to right, red, blue);
+  /* 将文字设置成透明，以显示出背景的渐变色 */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* 为了兼容不支持background-clip: text的浏览器 */
+  color: transparent;
+}
