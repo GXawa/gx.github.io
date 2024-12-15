@@ -66,18 +66,13 @@
 html {
  height: 100%;
 }
- 
-.bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("https://raw.githubusercontent.com/GXawa/gx.github.io/refs/heads/main/Cache_2b92e283c97d8e5e%20(1).jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+ /*css背景图片*/
+body {
+  background-image: url("https://raw.githubusercontent.com/GXawa/gx.github.io/refs/heads/main/Cache_2b92e283c97d8e5e%20(1).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 /*首页*/
 .mainpage-banner,
