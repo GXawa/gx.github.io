@@ -13,7 +13,7 @@
 /* 导航栏 */
 .topnav {
   overflow: hidden;
-  background-color: rgba(51,51,51,0.5);
+  background-color: rgba(51,51,51,0.6);
 }
 
 /* 导航栏-链接 */
@@ -70,7 +70,7 @@ html {
 body {
  margin: 0;
  padding: 0;
- background-image: url("https://static.wikia.nocookie.net/hyperrooms/images/4/4c/Cache_2b92e283c97d8e5e.jpg/revision/latest?cb=20230821051529&path-prefix=zh&format=original"); /* 替换为你的图片路径 */
+ background-image: url("https://raw.githubusercontent.com/GXawa/gx.github.io/refs/heads/main/Cache_2b92e283c97d8e5e%20(1).jpg"); /* 替换为你的图片路径 */
  background-position: center; /* 图片居中 */
  background-size: cover; /* 图片覆盖整个元素 */
  background-repeat: no-repeat; /* 不重复图片 */
